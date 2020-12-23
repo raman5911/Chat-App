@@ -1,0 +1,121 @@
+body {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    overflow: hidden;
+}
+
+.main {
+    background: #fff;
+    width: 700px;
+    height: 600px;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 5px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.input {
+    height: 200px;
+    width: 100%;
+    margin: 10px;
+    /* position: relative;
+    top: 530px; */
+}
+
+#message-content {
+    height: 30px;
+    width: 85%;
+    margin: 10px;
+    padding: 5px;
+}
+
+#message-content:focus {
+    outline: none;
+    border: 3px solid #fa71cd;
+}
+
+#send {
+    background: #ff9a9e;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    height: 45px;
+    padding: 10px 10px;
+    position: relative;
+    top: 5px;
+    transition: all 0.3s;
+}
+
+#send:hover {
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    transform: scale(1.15);
+}
+
+.chat-container {
+    height: 500px;
+    width: 97%;
+    padding: 10px;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.status {
+    text-align: center;
+    background: #ffaaad;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 230px;
+    padding: 5px;
+    width: 30%;
+}
+
+.my-name {
+    margin-bottom: -7px;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 18px;
+    position: relative;
+    top: 0px;
+}
+
+.user2-name {
+    margin-bottom: -7px;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 18px;
+    position: relative;
+}
+
+.message {
+    position: relative;
+    left: 355px;
+    width: 250px;
+    display: flexbox;
+    word-wrap: break-word;
+    margin: 10px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    border-top-right-radius: 5px;
+    border-top-width: 1px solid #fff;
+    font-size: 17px;
+}
+
+.user2-message {
+    width: 250px;
+    display: flexbox;
+    word-wrap: break-word;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #f2f2f2;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    border-top-left-radius: 5px;
+    border-top-width: 1px solid #fff;
+}
